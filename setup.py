@@ -14,7 +14,7 @@ setup(
 	long_description=open('README').read(),
 	url='http://ateska.github.com/ramona/',
 	download_url='http://pypi.python.org/pypi/ramona',
-	install_requires=["pyev"],
+	install_requires=["pyev-static"],
 	requires=["pyev-static"],
 	zip_safe=True,
 	package_data={
