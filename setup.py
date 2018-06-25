@@ -15,7 +15,7 @@ setup(
 	url='http://ateska.github.com/ramona/',
 	download_url='http://pypi.python.org/pypi/ramona',
 	install_requires=["pyev-static"],
-	requires=["pyev-static"],
+	requires=["pyev"],
 	zip_safe=True,
 	package_data={
 		'ramona.httpfend': [
